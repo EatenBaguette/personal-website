@@ -4,10 +4,10 @@ import Markdown from 'markdown-to-jsx';
 import { Action } from '@/components/atoms';
 
 export default function Footer(props) {
-    const { primaryLinks = [], contacts, copyrightText, styles = {} } = props;
+    const { primaryLinks = [], contacts, copyrightText, colors = 'colors-f', styles = {} } = props;
     const footerWidth = styles.self?.width ?? 'narrow';
     return (
-        <footer className={classNames('relative', styles.self?.padding ?? 'py-16 px-4')}>
+        <footer className={classNames('relative', styles.self?.padding ?? 'py-16 px-4')} data-theme={colors}>
             <div
                 className={classNames('border-t-2 border-current pt-8', {
                     'max-w-7xl mx-auto': footerWidth === 'narrow',
@@ -27,7 +27,6 @@ export default function Footer(props) {
                         </div>
                     )}
                     {contacts && <Contacts {...contacts} />}
-                    {/* Please keep this attribution up if you're using Stackbit's free plan. */}
                     {copyrightText && (
                         <div className={classNames(primaryLinks.length > 0 || contacts ? 'md:self-end' : null)}>
                             <Markdown
