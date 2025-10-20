@@ -3,7 +3,7 @@
     "favicon": "/images/favicon.svg",
     "header": {
         "type": "Header",
-        "headerVariant": "variant-c",
+        "headerVariant": "variant-a",
         "isSticky": true,
         "title": "Ethan Bessette",
         "isTitleVisible": true,
@@ -78,14 +78,14 @@
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
-            "phoneNumber": "850-123-5021",
-            "phoneAltText": "My phone number",
-            "email": "thisismyemail.@myemail.me",
+            "phoneNumber": "",
+            "phoneAltText": "",
+            "email": "info@ethanbessette.com",
             "emailAltText": "My email",
-            "address": "312 Lovely Street, Brooklyn, NY, 123456",
-            "addressAltText": "My address"
+            "address": "",
+            "addressAltText": ""
         },
-        "copyrightText": "Powered by [Netlify](https://www.netlify.com/)",
+        "copyrightText": "© Ethan Bessette 2025. All Rights Reserved.\n",
         "styles": {
             "self": {
                 "width": "narrow",
@@ -96,6 +96,7 @@
                     "pl-4"
                 ]
             }
-        }
+        },
+        "colors": "colors-e"
     }
 }
