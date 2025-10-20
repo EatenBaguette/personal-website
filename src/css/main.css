@@ -25,7 +25,9 @@ layer(base);
         @apply flex flex-col grow;
     }
 
-    h1,
+    h1 {
+        font-family: "Sansation", sans-serif;
+    },
     h2,
     h3,
     h4,

@@ -682,7 +682,7 @@ export type ThemeStyle = BaseContentObject & {
     onSecondary?: string;
     complementary?: string;
     onComplementary?: string;
-    fontBody: '"DM Mono", monospace' | '"Azeret Mono", monospace';
+    fontBody: '"Roboto", monospace' | '"Sansation", monospace' | '"Philospher", monospace';
     headingWeight?: 'normal' | 'medium';
     headingCase?: 'none' | 'lowercase' | 'capitalize' | 'uppercase';
 };
