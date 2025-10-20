@@ -112,7 +112,7 @@ export const HeaderModel: Model = {
             name: 'isSticky',
             group: 'styles',
             label: 'Make header stick to the top of the page',
-            default: false
+            default: true
         },
         {
             type: 'style',

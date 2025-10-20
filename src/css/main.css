@@ -38,6 +38,14 @@ layer(base);
         font-weight: var(--theme-heading-weight);
         text-transform: var(--theme-heading-case);
     }
+    
+    p {
+        font-family: "Roboto", sans-serif;
+    }
+    
+    span {
+        font-family: "Philosopher", sans-serif;
+    }
 
     b,
     strong {
