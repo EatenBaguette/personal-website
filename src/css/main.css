@@ -46,7 +46,7 @@ layer(base);
     span {
         font-family: "Philosopher", sans-serif;
     }
-
+    
     b,
     strong {
         @apply font-medium;

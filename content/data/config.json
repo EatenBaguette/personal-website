@@ -4,7 +4,7 @@
     "header": {
         "type": "Header",
         "headerVariant": "variant-c",
-        "isSticky": false,
+        "isSticky": true,
         "title": "Ethan Bessette",
         "isTitleVisible": true,
         "primaryLinks": [
@@ -44,7 +44,8 @@
             "self": {
                 "width": "full"
             }
-        }
+        },
+        "colors": "colors-c"
     },
     "footer": {
         "type": "Footer",
