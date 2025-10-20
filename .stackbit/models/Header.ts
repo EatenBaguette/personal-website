@@ -112,7 +112,60 @@ export const HeaderModel: Model = {
             name: 'isSticky',
             group: 'styles',
             label: 'Make header stick to the top of the page',
-            default: false
+            default: true
+        },
+        {
+            type: 'enum',
+            name: 'colors',
+            label: 'Colors',
+            description: 'The color theme of the header',
+            group: 'styles',
+            controlType: 'palette',
+            options: [
+                {
+                    label: 'Colors A',
+                    value: 'colors-a',
+                    textColor: '$onDark',
+                    backgroundColor: '$dark',
+                    borderColor: '#ececec'
+                },
+                {
+                    label: 'Colors B',
+                    value: 'colors-b',
+                    textColor: '$onLight',
+                    backgroundColor: '$light',
+                    borderColor: '#ececec'
+                },
+                {
+                    label: 'Colors C',
+                    value: 'colors-c',
+                    textColor: '$onPrimary',
+                    backgroundColor: '$primary',
+                    borderColor: '#ececec'
+                },
+                {
+                    label: 'Colors D',
+                    value: 'colors-d',
+                    textColor: '$onSecondary',
+                    backgroundColor: '$secondary',
+                    borderColor: '#ececec'
+                },
+                {
+                    label: 'Colors E',
+                    value: 'colors-e',
+                    textColor: '$onComplementary',
+                    backgroundColor: '$complementary',
+                    borderColor: '#ececec'
+                },
+                {
+                    label: 'Colors F',
+                    value: 'colors-f',
+                    textColor: '$onLight',
+                    backgroundColor: 'transparent',
+                    borderColor: '#ececec'
+                }
+            ],
+            default: 'colors-f'
         },
         {
             type: 'style',

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,400;0,500;1,400;1,500&family=DM+Mono:ital,wght@0,400;0,500;1,400;1,500&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap')
 layer(base);
 
 @import 'tailwindcss';
@@ -25,7 +25,9 @@ layer(base);
         @apply flex flex-col grow;
     }
 
-    h1,
+    h1 {
+        font-family: "Sansation", sans-serif;
+    },
     h2,
     h3,
     h4,
@@ -36,7 +38,15 @@ layer(base);
         font-weight: var(--theme-heading-weight);
         text-transform: var(--theme-heading-case);
     }
-
+    
+    p {
+        font-family: "Roboto", sans-serif;
+    }
+    
+    span {
+        font-family: "Philosopher", sans-serif;
+    }
+    
     b,
     strong {
         @apply font-medium;

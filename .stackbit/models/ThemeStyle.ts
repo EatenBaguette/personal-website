@@ -87,15 +87,19 @@ export const ThemeStyleModel: Model = {
             group: 'text-styles',
             options: [
                 {
-                    label: 'DM Mono',
-                    value: '"DM Mono", monospace'
+                    label: 'Roboto',
+                    value: '"Roboto", monospace'
                 },
                 {
-                    label: 'Azeret Mono',
-                    value: '"Azeret Mono", monospace'
+                    label: 'Sansation',
+                    value: '"Sansation", monospace'
+                },
+                {
+                    label: 'Philospher',
+                    value: '"Philospher", monospace'
                 }
             ],
-            default: '"DM Mono", monospace',
+            default: '"Roboto", monospace',
             required: true
         },
         {

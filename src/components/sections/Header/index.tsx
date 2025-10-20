@@ -9,10 +9,10 @@ import MenuIcon from '@/components/svgs/menu';
 import HeaderLink from './HeaderLink';
 
 export default function Header(props) {
-    const { isSticky, styles = {}, ...rest } = props;
+    const { isSticky, colors = 'colors-f', styles = {}, ...rest } = props;
     const headerWidth = styles.self?.width ?? 'narrow';
     return (
-        <header className={classNames(isSticky ? 'sticky top-0 z-10' : 'relative', 'border-b border-current')}>
+        <header className={classNames(isSticky ? 'sticky top-0 z-10' : 'relative', 'border-b border-current')} data-theme={colors}>
             <div
                 className={classNames({
                     'max-w-7xl mx-auto xl:border-x xl:border-current': headerWidth === 'narrow',

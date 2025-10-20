@@ -70,6 +70,7 @@ const components = {
     TextFormControl: dynamic(() => import('./molecules/FormBlock/TextFormControl')),
     TextSection: dynamic(() => import('./sections/TextSection')),
     VideoBlock: dynamic(() => import('./molecules/VideoBlock')),
+    GeneralSection: dynamic(() => import('./sections/GeneralSection')),
     PageLayout: dynamic(() => import('./layouts/PageLayout')),
     PostLayout: dynamic(() => import('./layouts/PostLayout')),
     PostFeedLayout: dynamic(() => import('./layouts/PostFeedLayout')),

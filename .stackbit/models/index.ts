@@ -41,6 +41,11 @@ import { TextFormControlModel } from './TextFormControl';
 import { TextSectionModel } from './TextSection';
 import { ThemeStyleModel } from './ThemeStyle';
 import { VideoBlockModel } from './VideoBlock';
+import { GeneralSectionModel } from './GeneralSection';
+import { TextObjectModel } from './TextObject';
+import { ImageObjectModel } from './ImageObject';
+import { ActionObjectModel } from './ActionObject';
+import { BackgroundSquareObjectModel } from './BackgroundSquareObject';
 
 export const allModels = [
     BackgroundImageModel,
@@ -85,5 +90,10 @@ export const allModels = [
     TextFormControlModel,
     TextSectionModel,
     ThemeStyleModel,
-    VideoBlockModel
+    VideoBlockModel,
+    GeneralSectionModel,
+    TextObjectModel,
+    ImageObjectModel,
+    ActionObjectModel,
+    BackgroundSquareObjectModel
 ];
