@@ -6,6 +6,7 @@ import { ContactBlockModel } from './ContactBlock';
 import { ContactSectionModel } from './ContactSection';
 import { CtaSectionModel } from './CtaSection';
 import { DividerSectionModel } from './DividerSection';
+import { BannerImageSectionModel } from './BannerImageSection';
 import { EmailFormControlModel } from './EmailFormControl';
 import { FeaturedItemModel } from './FeaturedItem';
 import { FeaturedItemsSectionModel } from './FeaturedItemsSection';
@@ -56,6 +57,7 @@ export const allModels = [
     ContactSectionModel,
     CtaSectionModel,
     DividerSectionModel,
+    BannerImageSectionModel,
     EmailFormControlModel,
     FeaturedItemModel,
     FeaturedItemsSectionModel,

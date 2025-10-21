@@ -44,32 +44,7 @@
     },
     "footer": {
         "type": "Footer",
-        "primaryLinks": [
-            {
-                "type": "Link",
-                "label": "Info",
-                "url": "/info",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "Contact",
-                "url": "mailto:thisismyemail.@myemail.me",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "Blog",
-                "url": "/blog",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "altText": "Netlify templates"
-            }
-        ],
+        "primaryLinks": [],
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
@@ -80,7 +55,7 @@
             "address": "",
             "addressAltText": ""
         },
-        "copyrightText": "© Ethan Bessette 2025. All Rights Reserved.\n",
+        "copyrightText": "© Ethan Bessette 2025\n",
         "styles": {
             "self": {
                 "width": "narrow",
@@ -92,6 +67,6 @@
                 ]
             }
         },
-        "colors": "colors-f"
+        "colors": "colors-b"
     }
 }

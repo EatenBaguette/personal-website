@@ -49,6 +49,7 @@ const components = {
     ContactSection: dynamic(() => import('./sections/ContactSection')),
     CtaSection: dynamic(() => import('./sections/CtaSection')),
     DividerSection: dynamic(() => import('./sections/DividerSection')),
+    BannerImageSection: dynamic(() => import('./sections/BannerImageSection')),
     EmbedSection: dynamic(() => import('./sections/EmbedSection')),
     EmailFormControl: dynamic(() => import('./molecules/FormBlock/EmailFormControl')),
     FeaturedItem: dynamic(() => import('./sections/FeaturedItemsSection/FeaturedItem')),
