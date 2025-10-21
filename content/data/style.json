@@ -1,16 +1,16 @@
 {
     "type": "ThemeStyle",
-    "light": "#ffffff",
+    "light": "#fffffff5",
     "onLight": "#797777",
     "dark": "#000000",
     "onDark": "#ffffff",
-    "primary": "#919652",
+    "primary": "#919652e6",
     "onPrimary": "#FBFFF2",
-    "secondary": "#E5E4B8",
+    "secondary": "#e5e5e4e6",
     "onSecondary": "#050806",
-    "complementary": "#565862cc",
+    "complementary": "#24332acc",
     "onComplementary": "#FBFFF2",
-    "fontBody": "\"Roboto\", monospace",
+    "fontBody": "\"Sansation\", monospace",
     "headingWeight": "500",
     "headingCase": "uppercase"
 }

@@ -7,37 +7,30 @@
         "isSticky": true,
         "title": "Ethan Bessette",
         "isTitleVisible": true,
-        "primaryLinks": [
-            {
-                "type": "Link",
-                "label": "Info",
-                "url": "/info"
-            },
-            {
-                "type": "Link",
-                "label": "Projects",
-                "url": "/projects"
-            },
-            {
-                "type": "Link",
-                "label": "Blog",
-                "url": "/blog"
-            }
-        ],
+        "primaryLinks": [],
         "socialLinks": [
-            {
-                "type": "Social",
-                "altText": "Twitter",
-                "label": "Twitter",
-                "url": "https://twitter.com/netlify",
-                "icon": "twitter"
-            },
             {
                 "type": "Social",
                 "altText": "GitHub",
                 "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
+                "url": "https://github.com/EatenBaguette",
                 "icon": "github"
+            },
+            {
+                "type": "Social",
+                "label": "Instagram",
+                "altText": "",
+                "url": "https://www.instagram.com/eatenbaguette/",
+                "icon": "instagram",
+                "elementId": ""
+            },
+            {
+                "type": "Social",
+                "label": "LinkedIn",
+                "altText": "",
+                "url": "https://www.linkedin.com/in/ethan-bessette-8b6b41210/",
+                "icon": "linkedin",
+                "elementId": ""
             }
         ],
         "styles": {
@@ -49,32 +42,7 @@
     },
     "footer": {
         "type": "Footer",
-        "primaryLinks": [
-            {
-                "type": "Link",
-                "label": "Info",
-                "url": "/info",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "Contact",
-                "url": "mailto:thisismyemail.@myemail.me",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "Blog",
-                "url": "/blog",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "altText": "Netlify templates"
-            }
-        ],
+        "primaryLinks": [],
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
@@ -85,7 +53,7 @@
             "address": "",
             "addressAltText": ""
         },
-        "copyrightText": "© Ethan Bessette 2025. All Rights Reserved.\n",
+        "copyrightText": "© Ethan Bessette 2025\n",
         "styles": {
             "self": {
                 "width": "narrow",
