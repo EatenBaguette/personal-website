@@ -7,32 +7,30 @@
         "isSticky": true,
         "title": "Ethan Bessette",
         "isTitleVisible": true,
-        "primaryLinks": [
-            {
-                "type": "Link",
-                "label": "About",
-                "url": "/about"
-            },
-            {
-                "type": "Link",
-                "label": "Projects",
-                "url": "/projects"
-            }
-        ],
+        "primaryLinks": [],
         "socialLinks": [
-            {
-                "type": "Social",
-                "altText": "Twitter",
-                "label": "Twitter",
-                "url": "https://twitter.com/netlify",
-                "icon": "twitter"
-            },
             {
                 "type": "Social",
                 "altText": "GitHub",
                 "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
+                "url": "https://github.com/EatenBaguette",
                 "icon": "github"
+            },
+            {
+                "type": "Social",
+                "label": "Instagram",
+                "altText": "",
+                "url": "https://www.instagram.com/eatenbaguette/",
+                "icon": "instagram",
+                "elementId": ""
+            },
+            {
+                "type": "Social",
+                "label": "LinkedIn",
+                "altText": "",
+                "url": "https://www.linkedin.com/in/ethan-bessette-8b6b41210/",
+                "icon": "linkedin",
+                "elementId": ""
             }
         ],
         "styles": {
@@ -67,6 +65,6 @@
                 ]
             }
         },
-        "colors": "colors-b"
+        "colors": "colors-e"
     }
 }

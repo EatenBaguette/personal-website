@@ -109,11 +109,11 @@ sections:
       Creative Coding, and Psychology. I look forward to hearing about how I can
       use my technical audio skills for your project!
   - type: EmbedSection
-    title: Highlighted Projects
+    title: Highlights
     embeds:
       - title: Composition Demo Reel
         caption: Composition Reel
-        embedUrl: /images/PW463_EthanBessette_DemoReel.mp4
+        embedUrl: /images/PW463_EthanBessette_DemoReel.mov
       - title: Aerylect
         caption: ''
         embedUrl: /Aerylect/index.html
@@ -145,22 +145,6 @@ sections:
         borderWidth: 0
         borderStyle: none
         borderColor: border-(--theme-complementary)
-        textAlign: center
-  - type: QuoteSection
-    quote: ' '
-    name: ''
-    title: ''
-    colors: colors-f
-    elementId: ''
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-36
-          - pb-36
-          - pl-4
-          - pr-4
         textAlign: center
   - type: BannerImageSection
     title: Banner Title
