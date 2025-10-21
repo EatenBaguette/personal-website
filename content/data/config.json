@@ -10,18 +10,13 @@
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Info",
-                "url": "/info"
+                "label": "About",
+                "url": "/about"
             },
             {
                 "type": "Link",
                 "label": "Projects",
                 "url": "/projects"
-            },
-            {
-                "type": "Link",
-                "label": "Blog",
-                "url": "/blog"
             }
         ],
         "socialLinks": [
@@ -97,6 +92,6 @@
                 ]
             }
         },
-        "colors": "colors-e"
+        "colors": "colors-f"
     }
 }

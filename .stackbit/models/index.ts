@@ -41,7 +41,7 @@ import { TextFormControlModel } from './TextFormControl';
 import { TextSectionModel } from './TextSection';
 import { ThemeStyleModel } from './ThemeStyle';
 import { VideoBlockModel } from './VideoBlock';
-import { GeneralSectionModel } from './GeneralSection';
+import { EmbedSectionModel } from './EmbedSection';
 import { TextObjectModel } from './TextObject';
 import { ImageObjectModel } from './ImageObject';
 import { ActionObjectModel } from './ActionObject';
@@ -91,7 +91,7 @@ export const allModels = [
     TextSectionModel,
     ThemeStyleModel,
     VideoBlockModel,
-    GeneralSectionModel,
+    EmbedSectionModel,
     TextObjectModel,
     ImageObjectModel,
     ActionObjectModel,
