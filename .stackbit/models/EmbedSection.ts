@@ -34,7 +34,7 @@ export const EmbedSectionModel: Model = {
                         name: 'embedUrl',
                         label: 'Embed URL',
                         description:
-                            "Paste an embeddable URL (YouTube, Vimeo, Spotify, SoundCloud, Figma, etc.). Use provider's embed/share link when available."
+                            "Paste an embeddable URL (YouTube, Vimeo, Spotify, SoundCloud, Figma, etc.). Use provider's embed/share link when available. You can also use a site-relative path for local content, e.g., /Aerylect/index.html."
                     },
                     {
                         type: 'string',

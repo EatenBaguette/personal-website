@@ -7,6 +7,11 @@ import Section from '../Section';
 
 function isSafeUrl(url?: string) {
     if (!url) return false;
+    // Allow site-relative paths like "/Aerylect/index.html"; block path traversal
+    if (url.startsWith('/')) {
+        if (/\.\./.test(url)) return false;
+        return true;
+    }
     try {
         const u = new URL(url);
         return u.protocol === 'https:' || u.protocol === 'http:';
@@ -98,6 +103,7 @@ export default function EmbedSection(props) {
                                         loading="lazy"
                                         allowFullScreen
                                         title={item.title || title || 'Embedded content'}
+                                        style={{ background: 'transparent' }}
                                     />
                                 )}
                                 {showCaption && item?.caption && (
@@ -122,6 +128,7 @@ export default function EmbedSection(props) {
                                         loading="lazy"
                                         allowFullScreen
                                         title={title || 'Embedded content'}
+                                        style={{ background: 'transparent' }}
                                     />
                                 )}
                             </div>
@@ -135,6 +142,7 @@ export default function EmbedSection(props) {
                                     loading="lazy"
                                     allowFullScreen
                                     title={title || 'Embedded content'}
+                                    style={{ background: 'transparent' }}
                                 />
                             )
                         )}

@@ -83,20 +83,20 @@ sections:
     styles:
       self:
         height: auto
-        width: wide
+        width: narrow
         padding:
           - pt-5
           - pb-5
-          - pl-10
+          - pl-5
           - pr-5
         flexDirection: row-reverse
         textAlign: left
         margin:
-          - mt-0
-          - ml-0
-          - mb-0
-          - mr-0
-        borderRadius: none
+          - mt-3
+          - ml-3
+          - mb-3
+          - mr-3
+        borderRadius: small
         borderWidth: 0
         borderColor: border-(--theme-primary)
     text: >
@@ -109,31 +109,79 @@ sections:
       Creative Coding, and Psychology. I look forward to hearing about how I can
       use my technical audio skills for your project!
   - type: EmbedSection
-    title: Embedded content
+    title: Highlighted Projects
     embeds:
-      - title: ''
+      - title: Composition Demo Reel
+        caption: Composition Reel
+        embedUrl: /images/PW463_EthanBessette_DemoReel.mp4
+      - title: Aerylect
         caption: ''
+        embedUrl: /Aerylect/index.html
+      - title: ''
+        caption: Technical Sound Designer
+        embedUrl: /SCU/index.html
     caption: ''
-    colors: colors-f
-    spacing: 16
+    colors: colors-b
+    spacing: 32
     columns: 3
-    aspectRatio: '16:9'
+    aspectRatio: '3:4'
     showCaption: true
     elementId: ''
     styles:
       self:
         height: auto
+        width: full
+        margin:
+          - mt-3
+          - mb-3
+          - ml-3
+          - mr-3
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        borderRadius: small
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-(--theme-complementary)
+        textAlign: center
+  - type: QuoteSection
+    quote: ' '
+    name: ''
+    title: ''
+    colors: colors-f
+    elementId: ''
+    styles:
+      self:
+        height: auto
         width: wide
+        padding:
+          - pt-36
+          - pb-36
+          - pl-4
+          - pr-4
+        textAlign: center
+  - type: BannerImageSection
+    title: Banner Title
+    subtitle: ''
+    bannerHeight: medium
+    colors: colors-f
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: full
         margin:
           - mt-0
           - mb-0
           - ml-0
           - mr-0
         padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
+          - pt-0
+          - pb-0
+          - pl-0
+          - pr-0
         borderRadius: none
         borderWidth: 0
         borderStyle: none
