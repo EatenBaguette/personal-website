@@ -9,7 +9,7 @@ sections:
       - type: ButtonItem
         title: Personal Site
         caption: ''
-        url: ethanbessette.com
+        url: /
         openInNewTab: false
         imageSource: image
         icon: ''
