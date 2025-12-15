@@ -1,6 +1,5 @@
 {
     "type": "Config",
-    "favicon": "/images/favicon.svg",
     "header": {
         "type": "Header",
         "headerVariant": "variant-a",
@@ -9,13 +8,6 @@
         "isTitleVisible": true,
         "primaryLinks": [],
         "socialLinks": [
-            {
-                "type": "Social",
-                "altText": "GitHub",
-                "label": "GitHub",
-                "url": "https://github.com/EatenBaguette",
-                "icon": "github"
-            },
             {
                 "type": "Social",
                 "label": "Instagram",
@@ -31,6 +23,21 @@
                 "url": "https://www.linkedin.com/in/ethan-bessette-8b6b41210/",
                 "icon": "linkedin",
                 "elementId": ""
+            },
+            {
+                "type": "Social",
+                "label": "SoundCloud",
+                "altText": "",
+                "url": "https://soundcloud.com/user-654497029",
+                "icon": "soundcloud",
+                "elementId": ""
+            },
+            {
+                "type": "Social",
+                "altText": "GitHub",
+                "label": "GitHub",
+                "url": "https://github.com/EatenBaguette",
+                "icon": "github"
             }
         ],
         "styles": {

@@ -73,6 +73,10 @@ export const SocialModel: Model = {
                     value: 'twitter'
                 },
                 {
+                    label: 'SoundCloud',
+                    value: 'soundcloud'
+                },
+                {
                     label: 'Vimeo',
                     value: 'vimeo'
                 },

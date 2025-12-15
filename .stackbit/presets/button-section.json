@@ -1,0 +1,38 @@
+{
+  "type": "ButtonSection",
+  "title": "Follow me",
+  "subtitle": "Find me around the web",
+  "items": [
+    {
+      "type": "ButtonItem",
+      "title": "GitHub",
+      "caption": "@username",
+      "url": "https://github.com/",
+      "imageSource": "icon",
+      "icon": "github",
+      "altText": "GitHub"
+    },
+    {
+      "type": "ButtonItem",
+      "title": "Instagram",
+      "caption": "@username",
+      "url": "https://instagram.com/",
+      "imageSource": "icon",
+      "icon": "instagram",
+      "altText": "Instagram"
+    }
+  ],
+  "colors": "colors-f",
+  "spacing": 16,
+  "columns": 3,
+  "captionPlacement": "below",
+  "itemBackgroundColor": "var(--theme-light)",
+  "itemBorderColor": "var(--theme-primary)",
+  "styles": {
+    "self": {
+      "width": "full",
+      "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+      "textAlign": "center"
+    }
+  }
+}
