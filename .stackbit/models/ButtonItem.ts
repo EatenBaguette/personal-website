@@ -35,7 +35,7 @@ export const ButtonItemModel: Model = {
             type: 'enum',
             name: 'imageSource',
             label: 'Image Source',
-            controlType: 'segmented-control',
+            controlType: 'button-group',
             options: [
                 { label: 'Social icon', value: 'icon' },
                 { label: 'Custom image', value: 'image' }
@@ -60,14 +60,14 @@ export const ButtonItemModel: Model = {
                 { label: 'YouTube', value: 'youtube' }
             ],
             default: 'facebook',
-            hidden: (content) => content?.imageSource !== 'icon'
+            hidden: false
         },
         {
             type: 'model',
             name: 'image',
             label: 'Custom image',
             models: ['ImageBlock'],
-            hidden: (content) => content?.imageSource !== 'image',
+            hidden: false,
             default: {
                 type: 'ImageBlock',
                 url: 'https://assets.stackbit.com/components/images/default/default-image.png',
@@ -86,16 +86,15 @@ export const ButtonItemModel: Model = {
             type: 'enum',
             name: 'backgroundColor',
             label: 'Button background',
-            group: 'styles',
             description: 'Override background color for this button',
             options: [
                 { label: 'Inherit (section default)', value: '' },
                 { label: 'Transparent', value: 'transparent' },
-                { label: 'Light', value: 'var(--theme-light)', color: '$light' },
-                { label: 'Dark', value: 'var(--theme-dark)', color: '$dark' },
-                { label: 'Primary', value: 'var(--theme-primary)', color: '$primary' },
-                { label: 'Secondary', value: 'var(--theme-secondary)', color: '$secondary' },
-                { label: 'Complementary', value: 'var(--theme-complementary)', color: '$complementary' }
+                { label: 'Light', value: 'var(--theme-light)' },
+                { label: 'Dark', value: 'var(--theme-dark)' },
+                { label: 'Primary', value: 'var(--theme-primary)' },
+                { label: 'Secondary', value: 'var(--theme-secondary)' },
+                { label: 'Complementary', value: 'var(--theme-complementary)' }
             ],
             default: ''
         },
@@ -103,15 +102,14 @@ export const ButtonItemModel: Model = {
             type: 'enum',
             name: 'borderColor',
             label: 'Button border color',
-            group: 'styles',
             description: 'Override border color for this button',
             options: [
                 { label: 'Inherit (section default)', value: '' },
-                { label: 'Light', value: 'var(--theme-light)', color: '$light' },
-                { label: 'Dark', value: 'var(--theme-dark)', color: '$dark' },
-                { label: 'Primary', value: 'var(--theme-primary)', color: '$primary' },
-                { label: 'Secondary', value: 'var(--theme-secondary)', color: '$secondary' },
-                { label: 'Complementary', value: 'var(--theme-complementary)', color: '$complementary' }
+                { label: 'Light', value: 'var(--theme-light)' },
+                { label: 'Dark', value: 'var(--theme-dark)' },
+                { label: 'Primary', value: 'var(--theme-primary)' },
+                { label: 'Secondary', value: 'var(--theme-secondary)' },
+                { label: 'Complementary', value: 'var(--theme-complementary)' }
             ],
             default: ''
         }
