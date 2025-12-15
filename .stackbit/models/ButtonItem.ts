@@ -88,15 +88,13 @@ export const ButtonItemModel: Model = {
             label: 'Button background',
             description: 'Override background color for this button',
             options: [
-                { label: 'Inherit (section default)', value: '' },
                 { label: 'Transparent', value: 'transparent' },
                 { label: 'Light', value: 'var(--theme-light)' },
                 { label: 'Dark', value: 'var(--theme-dark)' },
                 { label: 'Primary', value: 'var(--theme-primary)' },
                 { label: 'Secondary', value: 'var(--theme-secondary)' },
                 { label: 'Complementary', value: 'var(--theme-complementary)' }
-            ],
-            default: ''
+            ]
         },
         {
             type: 'enum',
@@ -104,14 +102,12 @@ export const ButtonItemModel: Model = {
             label: 'Button border color',
             description: 'Override border color for this button',
             options: [
-                { label: 'Inherit (section default)', value: '' },
                 { label: 'Light', value: 'var(--theme-light)' },
                 { label: 'Dark', value: 'var(--theme-dark)' },
                 { label: 'Primary', value: 'var(--theme-primary)' },
                 { label: 'Secondary', value: 'var(--theme-secondary)' },
                 { label: 'Complementary', value: 'var(--theme-complementary)' }
-            ],
-            default: ''
+            ]
         }
     ]
 };
