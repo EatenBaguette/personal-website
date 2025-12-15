@@ -71,11 +71,11 @@ export const ButtonSectionModel: Model = {
             group: 'styles',
             options: [
                 { label: 'Transparent', value: 'transparent' },
-                { label: 'Light', value: 'var(--theme-light)', color: '$light' },
-                { label: 'Dark', value: 'var(--theme-dark)', color: '$dark' },
-                { label: 'Primary', value: 'var(--theme-primary)', color: '$primary' },
-                { label: 'Secondary', value: 'var(--theme-secondary)', color: '$secondary' },
-                { label: 'Complementary', value: 'var(--theme-complementary)', color: '$complementary' }
+                { label: 'Light', value: 'var(--theme-light)' },
+                { label: 'Dark', value: 'var(--theme-dark)' },
+                { label: 'Primary', value: 'var(--theme-primary)' },
+                { label: 'Secondary', value: 'var(--theme-secondary)' },
+                { label: 'Complementary', value: 'var(--theme-complementary)' }
             ],
             default: 'transparent'
         },
@@ -85,11 +85,11 @@ export const ButtonSectionModel: Model = {
             label: 'Button border color',
             group: 'styles',
             options: [
-                { label: 'Light', value: 'var(--theme-light)', color: '$light' },
-                { label: 'Dark', value: 'var(--theme-dark)', color: '$dark' },
-                { label: 'Primary', value: 'var(--theme-primary)', color: '$primary' },
-                { label: 'Secondary', value: 'var(--theme-secondary)', color: '$secondary' },
-                { label: 'Complementary', value: 'var(--theme-complementary)', color: '$complementary' }
+                { label: 'Light', value: 'var(--theme-light)' },
+                { label: 'Dark', value: 'var(--theme-dark)' },
+                { label: 'Primary', value: 'var(--theme-primary)' },
+                { label: 'Secondary', value: 'var(--theme-secondary)' },
+                { label: 'Complementary', value: 'var(--theme-complementary)' }
             ],
             default: 'var(--theme-dark)'
         },
