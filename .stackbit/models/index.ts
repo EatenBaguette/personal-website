@@ -21,6 +21,8 @@ import { LabelModel } from './Label';
 import { LabelsSectionModel } from './LabelsSection';
 import { LinkModel } from './Link';
 import { MediaGallerySectionModel } from './MediaGallerySection';
+import { ButtonSectionModel } from './ButtonSection';
+import { ButtonItemModel } from './ButtonItem';
 import { MetaTagModel } from './MetaTag';
 import { PageLayoutModel } from './PageLayout';
 import { PersonModel } from './Person';
@@ -71,6 +73,7 @@ export const allModels = [
     LabelModel,
     LabelsSectionModel,
     LinkModel,
+    ButtonSectionModel,
     MediaGallerySectionModel,
     MetaTagModel,
     PageLayoutModel,
@@ -97,5 +100,6 @@ export const allModels = [
     TextObjectModel,
     ImageObjectModel,
     ActionObjectModel,
-    BackgroundSquareObjectModel
+    BackgroundSquareObjectModel,
+    ButtonItemModel
 ];

@@ -22,6 +22,7 @@ import Send from './send';
 import Twitter from './twitter';
 import Vimeo from './vimeo';
 import YouTube from './youtube';
+import SoundCloud from './soundcloud';
 
 export const iconMap = {
     apple: Apple,
@@ -46,6 +47,7 @@ export const iconMap = {
     reddit: Reddit,
     send: Send,
     twitter: Twitter,
+    soundcloud: SoundCloud,
     vimeo: Vimeo,
     youtube: YouTube
 };
