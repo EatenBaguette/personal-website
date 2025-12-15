@@ -17,12 +17,6 @@ export const ButtonSectionModel: Model = {
             default: 'Links'
         },
         {
-            type: 'string',
-            name: 'subtitle',
-            label: 'Subtitle',
-            default: ''
-        },
-        {
             type: 'list',
             name: 'items',
             label: 'Buttons',

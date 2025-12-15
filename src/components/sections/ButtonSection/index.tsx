@@ -15,13 +15,13 @@ type ButtonItem = {
     image?: any;
     altText?: string;
     backgroundColor?: string;
-    borderColor?: string;
+    borderColor?: 'colors-a' | 'colors-b' | 'colors-c' | 'colors-d' | 'colors-e' | 'colors-f';
 };
 
 type ButtonSectionProps = {
     type: 'ButtonSection';
     elementId?: string;
-    colors?: string;
+    colors?: 'colors-a' | 'colors-b' | 'colors-c' | 'colors-d' | 'colors-e' | 'colors-f';
     title?: string;
     subtitle?: string;
     items?: ButtonItem[];
